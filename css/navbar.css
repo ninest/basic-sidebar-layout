@@ -1,0 +1,36 @@
+header {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header .right a {
+  color: unset;
+  text-decoration: unset;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header .right a.blue {
+  color: white;
+  background-color: blue;
+}
+
+header .right a + a {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=navbar.css.map */
