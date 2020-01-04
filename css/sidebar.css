@@ -1,1 +1,57 @@
-/* No CSS *//*# sourceMappingURL=sidebar.css.map */
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20rem 1fr;
+      grid-template-columns: 20rem 1fr;
+}
+
+main p, main ul {
+  margin-bottom: 1em;
+}
+
+main aside {
+  padding: 15px 35px;
+  font-size: 0.9em;
+  display: block;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: scroll;
+}
+
+main aside ul {
+  list-style: none;
+}
+
+main aside ul li {
+  margin-bottom: 5px;
+}
+
+main .content {
+  padding: 15px 10%;
+}
+
+main .content h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+main .content ul {
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 100vh auto;
+        grid-template-rows: 100vh auto;
+  }
+  main aside {
+    position: unset;
+    top: unset;
+    display: none;
+  }
+}
+/*# sourceMappingURL=sidebar.css.map */

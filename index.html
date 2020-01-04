@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title> Basic Sidebar layout</title>
 
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/sidebar.css">
@@ -15,10 +16,107 @@
   <header>
     <div class="logo">Website</div>
     <div class="right">
+      <button id="toggle" class="toggle">Toggle</button>
       <a href="#" class="white">Learn</a>
       <a href="#" class="blue">Get Started</a>
     </div>
   </header>
 
+  <main>
+    <aside id="sidebar">
+      <ul>
+        <li>Installation</li>
+        <li>Introduction</li>
+        <li>What is This.js?</li>
+        <li>Getting Started</li>
+        <li>Declarative Rendering</li>
+        <li>Conditionals and Loops</li>
+        <li>Handling User Input</li>
+        <li>Composing with Components</li>
+        <li>Relation to Custom Elements</li>
+        <li>Ready for More?</li>
+        <li>The This Instance</li>
+        <li>Template Syntax</li>
+        <li>Computed Properties and Watchers</li>
+        <li>Class and Style Bindings</li>
+        <li>Conditional Rendering</li>
+        <li>List Rendering</li>
+        <li>Event Handling</li>
+        <li>Dynamic & Async Components</li>
+        <li>Handling Edge Cases</li>
+        <li>Transitions & Animation</li>
+        <li>Enter/Leave & List Transitions</li>
+        <li>State Transitions</li>
+        <li>Mixins</li>
+        <li>Custom Directives</li>
+        <li>Security</li>
+        <li>Internals</li>
+        <li>Reactivity in Depth</li>
+        <li>Migrating</li>
+        <li>Migration from Vue 1.x</li>
+        <li>Migration from Vue Router 0.7.x</li>
+        <li>Migration from Vuex 0.6.x to 1.0</li>
+        <li>Meta</li>
+        <li>Comparison with Other Frameworks</li>
+        <li>Join the Vue.js Community!</li>
+        <li>Meet the Team</li>
+        <li>Render Functions & JSX</li>
+        <li>Plugins</li>
+        <li>Filters</li>
+        <li>Form Input Bindings</li>
+        <li>Security</li>
+        <li>Internals</li>
+        <li>Reactivity in Depth</li>
+        <li>Migrating</li>
+        <li>Migration from Vue 1.x</li>
+        <li>Migration from Vue Router 0.7.x</li>
+        <li>Migration from Vuex 0.6.x to 1.0</li>
+        <li>Meta</li>
+        <li>Comparison with Other Frameworks</li>
+        <li>Join the Vue.js Community!</li>
+        <li>Single File Components</li>
+        <li>Unit Testing</li>
+        <li>TypeScript Support</li>
+        <li>Production Deployment</li>
+        <li>Scaling Up</li>
+        <li>Meet the Team</li>
+        <li>Sings</li>
+        <li>Components Basics</li>
+      </ul>
+    </aside>
+    <div class="content">
+      <h1>Major Title</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim blanditiis sapiente inventore corrupti possimus officiis dicta recusandae. Deleniti neque cum ex fugiat est consectetur? Modi officia quia sapiente ratione adipisci, possimus nam sint ab necessitatibus nesciunt tenetur qui provident consequatur quasi error hic eum velit. Necessitatibus reiciendis pariatur odit atque blanditiis nulla dolorem obcaecati molestias numquam nemo perferendis perspiciatis, repudiandae aperiam vero modi sint. Architecto delectus ut, mollitia nesciunt possimus dolore ipsum incidunt reprehenderit temporibus libero perspiciatis, dignissimos adipisci? Nam dolore, in eligendi quo ratione atque, corporis minus fuga quam, eaque enim sed illum porro. Illum fuga a inventore.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, molestiae cupiditate. Quidem hic minima blanditiis? Repellat molestias iure distinctio possimus?:</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        
+      </ul>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum delectus perspiciatis explicabo alias? Vitae excepturi aut nesciunt, dolorum dolores quasi eveniet deleniti ab maxime fuga itaque, unde magnam asperiores tenetur corporis repellendus odio quibusdam quidem praesentium nobis! Ab, architecto facilis?</p>
+
+      <h2>More about this</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum est aspernatur illum distinctio quia illo aliquam, id optio repudiandae natus veniam saepe possimus accusamus corrupti nostrum facere pariatur? Voluptas ad nulla voluptatibus molestiae? Fugiat nobis impedit nostrum minus, delectus eaque, dicta ut non velit saepe repellat, id incidunt ullam rem.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio dignissimos, consequuntur, temporibus reiciendis vero qui ut culpa natus unde quisquam accusantium aspernatur molestias assumenda quos delectus consectetur voluptatem recusandae non?</p>
+
+      <h2>Another section</h2>
+      <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis repellendus iste sequi, nemo, facere eius non deserunt iusto quia aut quasi. Nobis corrupti fuga autem quibusdam dignissimos? Saepe, ex blanditiis ullam nemo eveniet error rerum est nam eius recusandae minima.</p>
+    </div>
+  </main>
+
+  <script>
+    let toggleButton = document.querySelector('#toggle')
+    let sidebar = document.querySelector('#sidebar')
+
+    toggleButton.onclick = () => {
+      console.log(sidebar.style.display)
+      if (sidebar.style.display === 'none' || sidebar.style.display === "") {
+        sidebar.style.display = 'block'
+      } else {
+        sidebar.style.display = 'none'
+      }
+    }
+  </script>
 </body>
 </html>

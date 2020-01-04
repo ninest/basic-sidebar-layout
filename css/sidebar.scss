@@ -1,0 +1,53 @@
+main {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+
+  p, ul {
+    margin-bottom: 1em;
+    
+  }
+
+  aside {
+    padding: 15px 35px;
+    font-size: 0.9em;
+
+    // by default, or when the screen size is increased, show the sidebar
+    display: block;
+
+    ul {
+      list-style: none;
+
+      li {
+        margin-bottom: 5px;
+      }
+    }
+
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: scroll;
+  }
+
+  .content {
+    h1 {font-size: 3em; font-weight: 900; }
+    padding: 15px 10%;
+    ul {
+      margin-left: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh auto;
+
+    aside {
+      position: unset;
+      top: unset;
+
+      // hidden by default, can be shown with button
+      display: none;
+    }
+  }
+} 
