@@ -3,12 +3,13 @@ header {
 
   background-color: rgba(0,0,0, 0.05);
 
+  // position: sticky; top:0;
+
   display:flex;
   justify-content: space-between;
   align-items: center;
 
   .logo {
-    font-size: 20px;
     font-weight: 700;
   }
 
@@ -23,6 +24,12 @@ header {
       border: none;
       background-color: unset;
 
+      font-size: 0.9em;
+
+      &#toggle {
+        cursor: pointer;
+      }
+      
       &.blue {
         color: white;
         background-color: blue;

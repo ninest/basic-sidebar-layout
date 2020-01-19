@@ -13,7 +13,6 @@ header {
 }
 
 header .logo {
-  font-size: 20px;
   font-weight: 700;
 }
 
@@ -25,6 +24,11 @@ header .right a, header .right button {
   border-radius: 5px;
   border: none;
   background-color: unset;
+  font-size: 0.9em;
+}
+
+header .right a#toggle, header .right button#toggle {
+  cursor: pointer;
 }
 
 header .right a.blue, header .right button.blue {
