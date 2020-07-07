@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/main.scss"],"names":[],"mappings":"AAAA,KACE,uBAAA,CACA,YAAA,CACA,+BAAA,CACA","file":"main.61ee6908.css","sourceRoot":"../src","sourcesContent":["main {\n  padding: 0 var(--side-p);\n  display: grid;\n  grid-template-columns: 200px 1fr;\n  grid-gap: calc(var(--extra-p)* 3.5);\n  \n}"]}

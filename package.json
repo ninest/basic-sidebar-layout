@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf ./public && rimraf ./dist && rimraf ./.cache",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "npm run clean && parcel build src/index.html --out-dir docs"
   },
   "keywords": [],
   "author": "",

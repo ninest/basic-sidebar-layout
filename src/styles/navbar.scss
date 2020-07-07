@@ -1,0 +1,46 @@
+header {
+  padding: var(--main-p) var(--side-p);
+  border-bottom: 1px solid #ddd;
+
+  // position: sticky;
+  // top: 0;
+
+  background-color: white;
+  z-index: 999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // site heading/logo
+  .logo {
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+  }
+
+  li {
+    font-weight: 600;
+    color: #222;
+
+    // show underline when hovered or active
+    a {
+      &:hover {
+        border-bottom: 2px solid #222;
+      }
+    }
+  }
+  // spacing between links
+  li + li {
+    margin-left: calc(1.5*var(--extra-p));
+  }
+}
+
