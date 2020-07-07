@@ -5,6 +5,9 @@ aside {
   top: 0;
   overflow: scroll;
 
+  // prevent scroll "leaking"
+  overscroll-behavior-y: contain;
+
   .sidebar {
     .section {
       .title {
