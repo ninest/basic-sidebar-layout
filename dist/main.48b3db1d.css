@@ -1,8 +1,0 @@
-main {
-  padding: 0 var(--side-p);
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  grid-gap: calc(var(--extra-p)* 3.5);
-}
-
-/*# sourceMappingURL=/main.48b3db1d.css.map */

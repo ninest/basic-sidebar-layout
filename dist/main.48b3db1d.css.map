@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles/main.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA","file":"main.48b3db1d.css","sourceRoot":"../src","sourcesContent":["main {\n  padding: 0 var(--side-p);\n  display: grid;\n  grid-template-columns: 200px 1fr;\n  grid-gap: calc(var(--extra-p)* 3.5);\n  \n}"]}
