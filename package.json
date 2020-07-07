@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf ./public && rimraf ./dist && rimraf ./.cache",
+    "clean": "rimraf ./public && rimraf ./docs && rimraf ./.cache",
     "dev": "parcel src/index.html",
-    "build": "npm run clean && parcel build src/index.html --out-dir docs --public-url basic-sidebar-layout"
+    "build": "npm run clean && parcel build src/index.html --out-dir docs --public-url /basic-sidebar-layout"
   },
   "keywords": [],
   "author": "",
