@@ -1,0 +1,2 @@
+header{top:0;right:0;height:var(--nav-height)}aside,header{position:fixed;left:0}aside{top:var(--nav-height);bottom:0;overflow:scroll;margin-left:var(--side-p);width:var(--sidebar-width)}main{padding-top:calc(var(--nav-height) + var(--extra-p)*1.3);padding-left:calc(var(--side-p) + var(--sidebar-width) + var(--extra-p)*4);padding-right:var(--side-p)}
+/*# sourceMappingURL=/basic-sidebar-layout/main.f1599918.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/variables.scss"],"names":[],"mappings":"AAAA,MACE,iBAAA,CACA","file":"variables.c0ac243e.css","sourceRoot":"../src","sourcesContent":[":root {\n  --nav-height: 3rem;\n  --sidebar-width: 16rem;\n}"]}
