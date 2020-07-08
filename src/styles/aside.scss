@@ -1,13 +1,5 @@
 aside {
-  padding-top: 3rem;
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  overflow: scroll;
-
-  // prevent scroll "leaking"
-  overscroll-behavior-y: contain;
-
+  padding-top: calc(var(--extra-p) * 2.5);
   .sidebar {
     .section {
       .title {

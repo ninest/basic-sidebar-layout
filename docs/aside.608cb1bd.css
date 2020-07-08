@@ -1,2 +1,0 @@
-aside{padding-top:3rem;height:100vh;position:sticky;top:0;overflow:scroll;overscroll-behavior-y:contain}aside .sidebar .section .title{font-weight:700;font-size:1.1em;margin-bottom:var(--dense-p)}aside .sidebar .section .links a{display:block;padding:var(--dense-p) var(--main-p);border-radius:var(--b-r)}aside .sidebar .section .links a.active{background-color:rgba(0,0,0,.1)}aside .sidebar .section+.section{margin-top:var(--main-p)}
-/*# sourceMappingURL=/basic-sidebar-layout/aside.608cb1bd.css.map */
